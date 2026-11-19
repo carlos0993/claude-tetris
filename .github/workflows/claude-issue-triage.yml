@@ -58,7 +58,11 @@ jobs:
                  hayas puesto tú.
 
             4. Escribe el diagnóstico en español con el Write tool en /tmp/claude-triage.md,
-               con exactamente esta estructura (la primera línea es un marcador obligatorio):
+               en formato GitHub Flavored Markdown (GFM) válido, para que GitHub lo renderice
+               correctamente: encabezados con #, listas con - o 1., `código en línea`,
+               bloques de código con ``` y el lenguaje (p. ej. ```js), tablas GFM si ayudan,
+               y enlaces a archivos del repo. No uses HTML salvo el marcador de la primera línea.
+               Usa exactamente esta estructura (la primera línea es un marcador obligatorio):
 
                <!-- claude-triage -->
                ## 🤖 Diagnóstico automático
